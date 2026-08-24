@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>le DOM</title>
+	</head>
+	<body>
+		<header>
+			<h1>BIENVENUE SUR LE DOM(Document Object Modele)</h1>
+		</header>
+		<main>
+			<section>
+				<p id="changeColor">
+					Le DOM nous aider a manupuler toute la stucture html via JavaScript
+				</p>
+			</section>
+			<section class="for-each">
+				<p class="agrandir-taille" >Bonjour et bienvenue sur le DOM</p>
+				<p>Comme on l'avait dit depuis longtemps</p>
+				<p>Le boucle forEach nous aider a recherche plusieur element sous forme d'un tableau</p>
+				<p>Alors Here we go</p>
+				<button type="button" onclick="agrandirTaille()">Agrandir paragraphe No2</button>
+			</section>
+			<form>
+				<label for="name">NOM:</label>
+				<input type="text" id="name"/></br>
+				<label for="prenom">PRENOM:</label>
+				<input type="text" id="prenom"/><br/>
+				<label for="matricule">MATRICULE:</label>
+				<input type="text" id="matricule"/></br>
+				<button type="button" id="btn-rec" onclick="recuperer()">Recuperer</button>
+			</form>
+			<div class="recup">
+			</div>
+		</main>
+		</footer>
+		
+		</footer>
+		<script src="./script.js"></script>
+	</body>
+</html>
